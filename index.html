@@ -1,0 +1,112 @@
+<!--
+- May 13, 2016  -  12:53 PM  -  Friday
+- MyFabulousApp - A project by Pranav Kural
+- Description - A project based on php, MySQL, HTML5, CSS3 and JavaScript to facilitate learning of these technologies
+-->
+<!DOCTYPE html> <!-- Specifying the doctype as HTML5-->
+<html lang="en"> <!-- Specifying the language used as English -->
+<head>
+    <meta charset="UTF-8"> <!-- Specifying the charset encoding format as UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <!-- Enables to page to be responsive to the viewport -->
+    <meta title="MyFabulousApp Index" about="Index for MyFabulousApp"/> <!-- Title of the page -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- Linking to the bootstrap CSS through CDN -->
+    <!-- Using CDN in the final project helps to increase performance at the end use level, as it enables the usage of preloaded bootstrap css on the client side
+      and also provides the latest features. I still include the link to the bootstrap file on my local machine as i use it for productivity -->
+    <link rel="stylesheet" href="../../Web/Assets/css/bootstrap-3.3.6/css/bootstrap.min.css">
+    <title>MyFabulousApp Index</title>  <!-- title of the page  -->
+    <!-- In document styling - document specific stylizing -->
+    <style>
+        /* enabling the border-box on all elements and setting the page font family to Arial */
+        * {
+            box-sizing: border-box;
+            font-family: Arial, "sans-serif";
+        }
+
+        /* Adding top padding to the LI tags */
+        li {
+            padding-top: 1%;
+        }
+    </style>
+</head>
+<body role="document"> <!-- Main content of the webpage -->
+<div class="container"> <!-- container class to add padding and margin as required -->
+    <!-- Main headings of the page -->
+    <header class="row container-fluid" role="banner">
+        <hgroup class="panel-heading">
+            <h1 class="text-primary text-center page-header">MyFabulousApp</h1> <!-- Heading of page - Project name-->
+            <h3 class="text-center text-primary panel-heading">Index</h3> <!-- Sub heading - Page purpose -->
+        </hgroup>
+    </header>
+    <!-- Main content - Index list -->
+    <main class="jumbotron text-info panel-body" role="main">
+        <!-- List schema
+            Web pages
+                > Html
+                > Php
+            Assets
+                > Stylesheets
+                    >> CSS
+                > Scripts
+                    >> JavaScripts
+        -->
+        <!-- Main list starts-->
+        <ul class="list-unstyled list-group">
+            <li class="list-group">
+                <section id="web_pages"> <!-- Section related to Web pages -->
+                    <h2 class="h2 list-group-item-heading">Web Pages</h2>
+                    <ul>
+                        <li>
+                            <section id="HTML">  <!-- Section related to Web pages of HTML file type -->
+                                <h3 class="h3 list-group-item-heading">HTML</h3>
+                                <ul>
+                                    <li class="list-group-item"><a href="index.html">index.html</a></li>
+                                </ul>
+                            </section>
+                        </li>
+                        <li>
+                            <section id="php"> <!-- Section related to php Web pages -->
+                                <h3 class="h3 list-group-item-heading">PHP</h3>
+                                <ul>
+                                    <li class="list-group-item">dynamic.php</li>
+                                </ul>
+                            </section>
+                        </li>
+                    </ul>
+                </section>
+            </li>
+            <li class="list-group">
+                <section id="Assets"> <!-- Section related to Web Assets -->
+                    <h2 class="h2 list-group-item-heading">Assets</h2>
+                    <ul>
+                        <li>
+                            <section id="Stylesheets"> <!-- Section related to Stylesheets -->
+                                <h3 class="h3 list-group-item-heading">Stylesheets - CSS</h3>
+                                <ul>
+                                    <li class="list-group-item">Bootstrap - <a name="Bootstrap_link"
+                                                                               href="../../Web/Assets/css/bootstrap-3.3.6/css/bootstrap.css">bootstrap.css</a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </li>
+                        <li>
+                            <section id="Scripts"> <!-- Section related to Script files -->
+                                <h3 class="h3 list-group-item-heading">Script Files - JavaScript</h3>
+                                <ul>
+                                    <li class="list-group-item">Common - <a name="Bootstrap_link" href="#">common.js</a>
+                                    </li>
+                                </ul>
+                            </section>
+                        </li>
+                    </ul>
+                </section>
+            </li>
+        </ul>
+    </main>
+    <footer class="panel-footer" role="contentinfo"> <!-- Footer for the index page -->
+        <h1 class="h1 text-center text-primary">Project by - <span class="text-success">Pranav Kural</span></h1>
+    </footer>
+</div>
+</body>
+</html>

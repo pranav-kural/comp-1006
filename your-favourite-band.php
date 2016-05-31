@@ -74,15 +74,24 @@
       <!-- Step 4 - Upload to your web server and submit your link on Blackboard for 5 marks -->
       <!-- link:  -->
       
+      <!-- Following not a requirement or part of assignment, footer start -->
     <footer class="panel-footer" role="contentinfo">
       <h4 class="text-center text-primary">Pranav Kural</h4>
       <h4 class="text-center text-primary">200333253</h4>
+      <ul class="list-unstyled list-inline list-group text-center">
+        <li class="list-group-item"><a class="github-button" href="https://github.com/pranav-kural/comp-1006" data-style="mega" aria-label="Follow @pranav-kural on GitHub">Follow</a></li>
+        <li class="list-group-item"><a class="github-button" href="https://github.com/pranav-kural/comp-1006" data-icon="octicon-star" data-style="mega" aria-label="Star pranav-kural/comp-1006 on GitHub">Star</a></li>
+        <li class="list-group-item"><a class="github-button" href="https://github.com/pranav-kural/comp-1006/fork" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork pranav-kural/comp-1006 on GitHub">Fork</a></li>
+    </ul>
+      <h3 class="text-center text-success"><a href="index.html">Go Back</a></h3>
     </footer>
+    <!-- footer end. -->
 
     </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
   
 </html>

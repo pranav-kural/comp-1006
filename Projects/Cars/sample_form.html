@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <title>Sample form with Materialize CSS</title>
+
+    <script src="js/materialize.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="s6">
+            <form name="sample">
+                <div class="input-field">
+                <label for="sample_select">Browser Select</label>
+                <select id="sample_select" class="browser-default">
+                    <option value="" disabled selected>Choose your option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                </select>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+
+<<form action="#">
+    <p>
+        <input name="group1" type="radio" id="test1" />
+        <label for="test1">Red</label>
+    </p>
+    <p>
+        <input name="group1" type="radio" id="test2" />
+        <label for="test2">Yellow</label>
+    </p>
+    <p>
+        <input class="with-gap" name="group1" type="radio" id="test3"  />
+        <label for="test3">Green</label>
+    </p>
+    <p>
+        <input name="group1" type="radio" id="test4" disabled="disabled" />
+        <label for="test4">Brown</label>
+    </p>
+</form>
+
+</body>
+</html>
